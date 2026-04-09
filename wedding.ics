@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Vivienne and Angel Wedding//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:vivienne-angel-wedding-20260926@hostaldelagavina
+DTSTAMP:20260407T120000Z
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:Vivienne's & Angel's Wedding 💒 (Hostal de la Gavina)
+LOCATION:Hostal de la Gavina
+DESCRIPTION:All-day wedding celebration at Hostal de la Gavina. Church map: https://www.google.com/maps/search/?api=1&query=Esglesia+de+l%27Esperanca+S%27Agaro
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR
