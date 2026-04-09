@@ -5,13 +5,18 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:vivienne-angel-wedding-20260926@hostaldelagavina
-DTSTAMP:20260407T120000Z
-DTSTART;VALUE=DATE:20260926
-DTEND;VALUE=DATE:20260927
+DTSTAMP:20260409T120000Z
+DTSTART;TZID=Europe/Madrid:20260926T130000
+DTEND;TZID=Europe/Madrid:20260927T000000
 SUMMARY:Vivienne's & Angel's Wedding 💒 (Hostal de la Gavina)
-LOCATION:Hostal de la Gavina
-DESCRIPTION:All-day wedding celebration at Hostal de la Gavina. Church map: https://www.google.com/maps/search/?api=1&query=Esglesia+de+l%27Esperanca+S%27Agaro
+LOCATION:Hostal de la Gavina\, Rosaleda Pza\, s/n\, 17248 S'Agaró\, Girona\, Spain
+DESCRIPTION:We are so excited to see you!\n\nChurch location: https://www.google.com/maps/search/?api=1&query=Esglesia+de+l%27Esperanca+S%27Agaro\n\nWedding Website: https://bit.ly/VandAwedding
 STATUS:CONFIRMED
-TRANSP:TRANSPARENT
+TRANSP:OPAQUE
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
 END:VEVENT
 END:VCALENDAR
